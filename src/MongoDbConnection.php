@@ -415,7 +415,7 @@ class MongoDbConnection extends Connection implements ConnectionInterface
                 'cursor' => new \stdClass()
             ]);
             $cursor = $this->connection->executeCommand($this->config['db'], $command);
-            $count = $cursor->toArray()[0];
+            $count = $cursor->toArray();
         } catch (\Exception $e) {
             $count = false;
             throw new MongoDBException($e->getFile() . $e->getLine() . $e->getMessage());
