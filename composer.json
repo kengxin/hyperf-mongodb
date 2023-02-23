@@ -1,9 +1,9 @@
 {
-  "name": "yumufeng/hyperf-mongodb",
+  "name": "kengxin/hyperf-mongodb",
   "license": "Apache-2.0",
   "authors": [
     {
-      "name": "yumufeng",
+      "name": "kengxin",
       "email": "admin@yumufeng.com"
     }
   ],
